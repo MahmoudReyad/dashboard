@@ -7,7 +7,7 @@ import {MdKeyboardArrowDown} from 'react-icons/md'
 import {TooltipComponent} from '@syncfusion/ej2-react-popups'
 import Avatar from '../data/avatar.jpg';
 import {Cart , Chat , Notification , UserProfile} from '.'
-import { useStateContext } from '../contexts/ContextProvider'
+import { useStateContext } from '../context/ContextProvider'
 
 const NavButton = ({title , customFunc , item , color , dotColor , icon}) => (
   <TooltipComponent content={title} position="BottomCenter" >
